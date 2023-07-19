@@ -8,6 +8,14 @@
   line-height: 20px;
 }
 
+.main {
+  background-color: #ffffff;
+  background-image: url(/images/background_header.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
 .header {
   padding: 30px 80px 40px;
   min-height: 720px;
@@ -15,11 +23,6 @@
   height: 100vh;
   flex-direction: column;
   display: flex;
-  background-color: #ffffff;
-  background-color: purple;
-  background-image: url(/images/background_header.svg);
-  background-repeat: no-repeat;
-  background-position: center;
   background-size: cover;
 }
 
