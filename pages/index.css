@@ -16,8 +16,11 @@
   flex-direction: column;
   display: flex;
   background-color: #ffffff;
+  background-color: purple;
   background-image: url(/images/background_header.svg);
   background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .nav {
