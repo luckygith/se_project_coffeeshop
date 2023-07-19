@@ -114,7 +114,9 @@
 }
 
 .header__paragraph {
-  margin: 0;
+  margin: 0 auto;
+  padding: 0;
+  position: relative;
 }
 
 .content {
