@@ -113,27 +113,37 @@
           <form class="reservation__form">
             <h1 class="Reservation__title">Book a table</h1>
             <fieldset>
-              <label
-                class="reservation__form_label"
-                for="name"
+              <label class="reservation__form_label" for="name">Name *</label>
+              <input
+                class="form_F_input"
+                id="name"
+                type="text"
                 placeholder="Name Surname"
-                >Name *</label
-              >
-              <input class="form__input" id="name" type="text" />
+              />
               <label class="reservation__form_label" for="guests"
                 >Number of guests *</label
               >
-              <input class="form__input" id="guests" type="text" />
+              <input
+                class="form__input"
+                id="guests"
+                type="text"
+                placeholder="(1-8)"
+              />
               <label class="reservation__form_label" for="date-time"
                 >Date & time *</label
               >
-              <input class="form__input" id="date-time" type="text" />
+              <input class="form__input" id="date-time" type="datetime-local" />
               <label class="reservation__form_label" for="email"
                 >Your email *</label
               >
-              <input class="form__input" id="email" type="text" />
+              <input
+                class="form__input"
+                id="email"
+                type="text"
+                placeholder="email@email.com"
+              />
               <label class="reservation__form_label" for="Book"></label>
-              <button class="form__button" id="book" type="text">
+              <button class="form__button" id="Book" type="button">
                 Book a table
               </button>
               <div class="form__label-text">
