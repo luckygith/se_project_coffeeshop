@@ -209,13 +209,13 @@
 }
 
 .form__checkbox {
-  border-radius: 2px;
+  border-radius: 12px;
 
 
 }
 
 .form__label-text{
-
+margin: auto;
 }
 
 fieldset {
