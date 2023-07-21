@@ -162,6 +162,7 @@
   background-image: url(/images/background_reservation.svg);
   background-repeat: no-repeat;
   background-position: center;
+  height: 100vh;
   background-size: cover;
   display: flex;
   flex-direction: column;
@@ -171,7 +172,7 @@
   padding: 0;
 }
 
-.reservation-title {
+.reservation__title {
   color: #000000;
   font-family: "Inter", Arial, sans-serif;
   font-style: normal;
@@ -237,13 +238,13 @@
   opacity: 70%;
 }
 
-.form__checkbox {
+.form-checkbox {
   border-radius: 12px;
   align-items: center;
   vertical-align: middle;
 }
 
-.form__checkbox_check {
+.form-checkbox-check {
   font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -254,7 +255,7 @@
   margin: 0;
 }
 
-.form__checkbox_container {
+.form-checkbox-container {
   display: flex;
   justify-content: center;
   align-items: center;
