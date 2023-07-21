@@ -111,44 +111,50 @@
         </section>
         <section id="reservation" class="reservation">
           <form class="reservation__form">
-            <h1 class="Reservation__title">Book a table</h1>
+            <h2 class="Reservation__title">Book a table</h2>
             <fieldset>
-              <label class="reservation__form_label" for="name">Name *</label>
+              <label class="reservation__label" for="name">Name *</label>
               <input
-                class="form_F_input"
+                class="reservation__input"
                 id="name"
                 type="text"
                 placeholder="Name Surname"
               />
-              <label class="reservation__form_label" for="guests"
+              <label class="reservation__label" for="guests"
                 >Number of guests *</label
               >
               <input
-                class="form__input"
+                class="reservation__input"
                 id="guests"
                 type="text"
                 placeholder="(1-8)"
               />
-              <label class="reservation__form_label" for="date-time"
+              <label class="reservation__label" for="date-time"
                 >Date & time *</label
               >
-              <input class="form__input" id="date-time" type="datetime-local" />
-              <label class="reservation__form_label" for="email"
-                >Your email *</label
-              >
+              <input
+                class="reservation_input"
+                id="date-time"
+                type="datetime-local"
+              />
+              <label class="reservation__label" for="email">Your email *</label>
               <input
                 class="form__input"
                 id="email"
                 type="text"
                 placeholder="email@email.com"
               />
-              <label class="reservation__form_label" for="Book"></label>
-              <button class="form__button" id="Book" type="button">
+              <label class="reservation__label" for="Book"></label>
+              <button class="reservation__button" id="Book" type="button">
                 Book a table
               </button>
-              <div class="form__label-text">
-                <input class="form__checkbox" id="terms" type="checkbox" />
-                <label class="form__checkbox" for="terms"
+              <div class="reservation__label-text">
+                <input
+                  class="reservation__checkbox"
+                  id="terms"
+                  type="checkbox"
+                />
+                <label class="reservation__checkbox" for="terms"
                   >I agree with the terms of use</label
                 >
               </div>
