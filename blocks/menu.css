@@ -69,7 +69,6 @@
   margin-bottom: 100px;
   flex-basis: 540px;
   display: inline-block;
-
 }
 
 .card__list-item {
@@ -111,6 +110,6 @@
   margin-bottom: 0;
 }
 
-
 .card__section:last-of-type {
   margin-bottom: 0;
+}
