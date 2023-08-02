@@ -131,17 +131,12 @@
                 id="email"
               />
               <button class="form-button">Book a table</button>
-
-              <label class="form__label form__label_type_checkbox">
-                <input
-                  class="form__checkbox form__checkbox-check form__input"
-                  type="checkbox"
-                  id="terms"
-                />
-                <label class="form__checkbox-check-label" for="terms"
-                  >I agree with the terms of use</label
+              <div class="form__fieldset-terms">
+                <label class="form__label form__label_type_checkbox">
+                  <input class="form__checkbox" type="checkbox" id="terms" />
+                  I agree with the terms of use</label
                 >
-              </label>
+              </div>
             </fieldset>
           </form>
         </section>
@@ -154,71 +149,73 @@
           </p>
           <div class="menu__cards">
             <section class="card">
-
+              <h3 class="card__title">Filter</h3>
               <ul class="card__list">
-                <h3 class="card__title">Filter</h3>
-                <li class="card__list-item">Regular (12 oz)
+                <li class="card__list-item">
+                  Regular (12 oz)
                   <span class="card__list-divider"></span>
                   <span class="card__list-divider card__list-divider_price"
                     >$1</span
                   >
                 </li>
-                <li class="card__list-item">Large (16 oz)
+                <li class="card__list-item">
+                  Large (16 oz)
                   <span class="card__list-divider"></span>
                   <span class="card__list-divider card__list-divider_price"
                     >$1.25</span
                   >
                 </li>
-                <li class="card__list-item">XL (20 oz)
-                  <span class="card__list-divider"></span
+                <li class="card__list-item">
+                  XL (20 oz) <span class="card__list-divider"></span
                   ><span class="card__list-divider card__list-divider_price"
                     >$1.5</span
                   >
                 </li>
-                <li class="card__list-item">Party-size (24 oz, decaf)
-                  <span class="card__list-divider"
-                    ></span
-                  >
+                <li class="card__list-item">
+                  Party-size (24 oz, decaf)
+                  <span class="card__list-divider"></span>
                   <span class="card__list-divider card__list-divider_price"
                     >$1.75</span
                   >
                 </li>
 
-                <li class="card__list-item">Iced Coffee (16 oz)
+                <li class="card__list-item">
+                  Iced Coffee (16 oz)
                   <span class="card__list-divider"></span>
                   <span class="card__list-divider card__list-divider_price"
                     >$1.25</span
                   >
                 </li>
               </ul>
-            </secion>
+            </section>
 
             <section class="card">
-
+              <h3 class="card__title">Espresso</h3>
               <ul class="card__list">
-                <h3 class="card__title">Espresso</h3>
-                <li class="card__list-item">Macchiatto
+                <li class="card__list-item">
+                  Macchiatto
                   <span class="card__list-divider"></span>
                   <span class="card__list-divider card__list-divider_price"
                     >$2.25</span
                   >
                 </li>
-                <li class="card__list-item">Cortado
+                <li class="card__list-item">
+                  Cortado
                   <span class="card__list-divider"></span>
                   <span class="card__list-divider card__list-divider_price"
                     >$2.5</span
                   >
                 </li>
-                <li class="card__list-item">Mocha
+                <li class="card__list-item">
+                  Mocha
                   <span class="card__list-divider"></span>
                   <span class="card__list-divider card__list-divider_price"
                     >$3</span
                   >
                 </li>
-                <li class="card__list-item">Sunrise in the Bay Area (decaf)
-                  <span class="card__list-divider"
-                    ></span
-                  >
+                <li class="card__list-item">
+                  Sunrise in the Bay Area (decaf)
+                  <span class="card__list-divider"></span>
                   <span class="card__list-divider card__list-divider_price"
                     >$10</span
                   >
@@ -227,34 +224,38 @@
             </section>
 
             <section class="card">
-
+              <h3 class="card__title">Baked Goods</h3>
               <ul class="card__list">
-                <h3 class="card__title">Baked Goods</h3>
-                <li class="card__list-item">Almond Croissant
+                <li class="card__list-item">
+                  Almond Croissant
                   <span class="card__list-divider"></span>
                   <span class="card__list-divider card__list-divider_price"
                     >$2</span
                   >
                 </li>
-                <li class="card__list-item">Key Lime Pie
+                <li class="card__list-item">
+                  Key Lime Pie
                   <span class="card__list-divider"></span>
                   <span class="card__list-divider card__list-divider_price"
                     >$3</span
                   >
                 </li>
-                <li class="card__list-item">Blue Velvet Cake
+                <li class="card__list-item">
+                  Blue Velvet Cake
                   <span class="card__list-divider"></span>
                   <span class="card__list-divider card__list-divider_price"
                     >$3.75</span
                   >
                 </li>
-                <li class="card__list-item">Web Cookie
+                <li class="card__list-item">
+                  Web Cookie
                   <span class="card__list-divider"></span>
                   <span class="card__list-divider card__list-divider_price"
                     >$2</span
                   >
                 </li>
-                <li class="card__list-item">Fresh Bug'uette
+                <li class="card__list-item">
+                  Fresh Bug'uette
                   <span class="card__list-divider"></span>
                   <span class="card__list-divider card__list-divider_price"
                     >$0.25</span
@@ -300,20 +301,22 @@
 
             <ul class="footer__list">
               <li class="footer__list-item">
-
-                <a href="#" class="footer__social-link"> <img
-                  src="images/facebook_white.svg"
-                  alt="#"
-                  class="footer__social-icon"
-                />Faceboom</a>
+                <a href="#" class="footer__social-link">
+                  <img
+                    src="images/facebook_white.svg"
+                    alt="#"
+                    class="footer__social-icon"
+                  />Faceboom</a
+                >
               </li>
               <li class="footer__list-item">
-
-                <a href="#" class="footer__social-link"><img
-                  src="images/instagram_white.svg"
-                  alt="Instagram-logo"
-                  class="footer__social-icon"
-                />Instagram</a>
+                <a href="#" class="footer__social-link"
+                  ><img
+                    src="images/instagram_white.svg"
+                    alt="Instagram-logo"
+                    class="footer__social-icon"
+                  />Instagram</a
+                >
               </li>
             </ul>
           </div>
