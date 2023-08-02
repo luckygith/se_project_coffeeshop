@@ -1,15 +1,12 @@
 @keyframes pulsate {
   0% {
     opacity: 0;
-    transform: scale(1);
   }
   50% {
     opacity: 0.6;
-    transform: scale(1.2);
   }
   100% {
     opacity: 0;
-    transform: scale(1);
   }
 }
 
@@ -28,8 +25,7 @@
   margin-bottom: 0;
   padding: 0;
   max-width: 251px;
-  font-family: "Inter";
-  font-style: normal;
+  font-family: "Inter", Arial, Sans-serif;
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
@@ -47,7 +43,7 @@
   margin-right: 80px;
   margin-bottom: 173px;
   padding: 0;
-  font-family: "Noto Serif";
+  font-family: "Noto Serif", "Times New Roman", serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -59,13 +55,13 @@
 .about__paragraph {
   padding: 0;
   position: relative;
-  margin: 0 auto;
+  margin: 0;
   z-index: 1;
+  margin-bottom: 20px;
 }
 
-.about__paragraph_second {
-  margin-top: 20px;
-  margin-bottom: 20px;
+.about__paragraph:last-child {
+  margin: 0;
 }
 
 .about__circle {
@@ -82,6 +78,5 @@
 }
 
 .about__circle_animation_blurred {
-  position: absolute;
   animation: pulsate 1.3s ease-in-out infinite;
 }
