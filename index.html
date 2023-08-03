@@ -73,7 +73,7 @@
         <section class="recipes">
           <h2 class="recipes__title" id="recipes">Recipes</h2>
           <p class="recipes__subtitle">
-            Check out some recipes we've <br />collected for your home-brewing
+            Check out some recipes we've collected for your home-brewing
             convenience:
           </p>
           <ul class="recipes__videos">
@@ -113,6 +113,7 @@
                 type="text"
                 placeholder="Name Surname"
                 id="name"
+                required
               />
               <label class="form__label" for="guests">Number of guests *</label>
               <input
@@ -120,23 +121,34 @@
                 type="text"
                 placeholder="(1-8)"
                 id="guests"
+                required
               />
               <label class="form__label" for="date-time">Date & time *</label>
-              <input class="form__input" type="datetime-local" id="date-time" />
+              <input
+                class="form__input"
+                type="datetime-local"
+                id="date-time"
+                required
+              />
               <label class="form__label" for="email">Your email</label>
               <input
                 class="form__input"
                 type="text"
                 placeholder="Email@email.com"
                 id="email"
+                required
               />
-              <button class="form-button">Book a table</button>
-              <div class="form__fieldset-terms">
-                <label class="form__label form__label_type_checkbox">
-                  <input class="form__checkbox" type="checkbox" id="terms" />
-                  I agree with the terms of use</label
-                >
-              </div>
+              <button type="button" class="form__button">Book a table</button>
+
+              <label class="form__label form__label_type_checkbox">
+                <input
+                  class="form__checkbox"
+                  type="checkbox"
+                  id="terms"
+                  required
+                />
+                I agree with the terms of use</label
+              >
             </fieldset>
           </form>
         </section>
@@ -148,77 +160,58 @@
             biodegradable cups. All teas from our collection are $2/cup.
           </p>
           <div class="menu__cards">
-            <section class="card">
+            <div class="card">
               <h3 class="card__title">Filter</h3>
               <ul class="card__list">
                 <li class="card__list-item">
                   Regular (12 oz)
-                  <span class="card__list-divider"></span>
-                  <span class="card__list-divider card__list-divider_price"
-                    >$1</span
-                  >
+
+                  <span class="card__list-divider">$1</span>
                 </li>
                 <li class="card__list-item">
                   Large (16 oz)
-                  <span class="card__list-divider"></span>
-                  <span class="card__list-divider card__list-divider_price"
-                    >$1.25</span
-                  >
+
+                  <span class="card__list-divider">$1.25</span>
                 </li>
                 <li class="card__list-item">
-                  XL (20 oz) <span class="card__list-divider"></span
-                  ><span class="card__list-divider card__list-divider_price"
-                    >$1.5</span
-                  >
+                  XL (20 oz) <span class="card__list-divider">$1.5</span>
                 </li>
                 <li class="card__list-item">
                   Party-size (24 oz, decaf)
-                  <span class="card__list-divider"></span>
-                  <span class="card__list-divider card__list-divider_price"
-                    >$1.75</span
-                  >
+
+                  <span class="card__list-divider">$1.75</span>
                 </li>
 
                 <li class="card__list-item">
                   Iced Coffee (16 oz)
-                  <span class="card__list-divider"></span>
-                  <span class="card__list-divider card__list-divider_price"
-                    >$1.25</span
-                  >
+
+                  <span class="card__list-divider">$1.25</span>
                 </li>
               </ul>
-            </section>
+            </div>
 
             <section class="card">
               <h3 class="card__title">Espresso</h3>
               <ul class="card__list">
                 <li class="card__list-item">
                   Macchiatto
-                  <span class="card__list-divider"></span>
-                  <span class="card__list-divider card__list-divider_price"
-                    >$2.25</span
-                  >
+
+                  <span class="card__list-divider">$2.25</span>
                 </li>
                 <li class="card__list-item">
                   Cortado
-                  <span class="card__list-divider"></span>
-                  <span class="card__list-divider card__list-divider_price"
-                    >$2.5</span
-                  >
+
+                  <span class="card__list-divider">$2.5</span>
                 </li>
                 <li class="card__list-item">
                   Mocha
-                  <span class="card__list-divider"></span>
-                  <span class="card__list-divider card__list-divider_price"
-                    >$3</span
-                  >
+
+                  <span class="card__list-divider">$3</span>
                 </li>
                 <li class="card__list-item">
                   Sunrise in the Bay Area (decaf)
-                  <span class="card__list-divider"></span>
-                  <span class="card__list-divider card__list-divider_price"
-                    >$10</span
-                  >
+
+                  <span class="card__list-divider">$10</span>
                 </li>
               </ul>
             </section>
@@ -228,38 +221,27 @@
               <ul class="card__list">
                 <li class="card__list-item">
                   Almond Croissant
-                  <span class="card__list-divider"></span>
-                  <span class="card__list-divider card__list-divider_price"
-                    >$2</span
-                  >
+
+                  <span class="card__list-divider">$2</span>
                 </li>
                 <li class="card__list-item">
                   Key Lime Pie
-                  <span class="card__list-divider"></span>
-                  <span class="card__list-divider card__list-divider_price"
-                    >$3</span
-                  >
+
+                  <span class="card__list-divider">$3</span>
                 </li>
                 <li class="card__list-item">
                   Blue Velvet Cake
-                  <span class="card__list-divider"></span>
-                  <span class="card__list-divider card__list-divider_price"
-                    >$3.75</span
-                  >
+
+                  <span class="card__list-divider">$3.75</span>
                 </li>
                 <li class="card__list-item">
                   Web Cookie
-                  <span class="card__list-divider"></span>
-                  <span class="card__list-divider card__list-divider_price"
-                    >$2</span
-                  >
+
+                  <span class="card__list-divider">$2</span>
                 </li>
                 <li class="card__list-item">
                   Fresh Bug'uette
-                  <span class="card__list-divider"></span>
-                  <span class="card__list-divider card__list-divider_price"
-                    >$0.25</span
-                  >
+                  <span class="card__list-divider">$0.25</span>
                 </li>
               </ul>
             </section>
@@ -288,13 +270,11 @@
       </main>
       <footer id="contacts" class="footer">
         <div class="footer__content">
-          <div class="footer__logo-container">
-            <img
-              class="footer__logo"
-              src="images/logo_coffeeshop_light.svg"
-              alt="Coffee shop logo"
-            />
-          </div>
+          <img
+            class="footer__logo"
+            src="images/logo_coffeeshop_light.svg"
+            alt="Coffee shop logo"
+          />
 
           <div class="footer__social">
             <h4 class="footer__social-heading">Social Media</h4>

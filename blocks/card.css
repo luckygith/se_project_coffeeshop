@@ -1,15 +1,12 @@
 .card {
   padding: 0;
   margin: 0;
-  justify-content: center;
-  font-family: "Inter";
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 20px;
   line-height: 30px;
   min-width: 540px;
-  row-gap: 100px;
-  column-gap: 100px;
 }
 
 .card__title {
@@ -26,7 +23,7 @@
 }
 
 .card__list-item {
-  font-family: "Noto Serif";
+  font-family: "Noto Serif", "Times New Roman", serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -35,29 +32,14 @@
   display: flex;
   max-width: 540px;
   list-style-type: none;
-  display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 16px;
-}
-
-.card__list-divider card__list-divider_price {
-  font-family: "Noto Serif";
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 20px;
 }
 
 .card__list-divider {
-  text-align: left;
+  color: black;
+  height: 1px;
   padding: 0;
-}
-
-.card__list-divider_price {
-  text-align: right;
-  padding: 0;
-  margin: 0;
 }
 
 .card__section .card__list-item:last-child {

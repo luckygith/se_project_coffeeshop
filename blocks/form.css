@@ -1,6 +1,6 @@
 .form__fieldset {
   padding: 0;
-  margin-top: 80px;
+  margin: 80px 0 0 0;
   border: none;
 }
 
@@ -29,9 +29,12 @@
   line-height: 30px;
   border-color: #838383;
   box-sizing: border-box;
+  border-width: 1px;
+  border-style: solid;
+  padding: 10px;
 }
 
-.form-button {
+.form__button {
   border-radius: 4px;
   border: none;
   opacity: 100%;
@@ -48,29 +51,24 @@
   margin-bottom: 32px;
 }
 
-.form-button:hover {
+.form__button:hover {
   opacity: 70%;
 }
 
 .form__label_type_checkbox {
   justify-content: center;
   align-items: center;
-  margin-right: 12px;
-}
 
-.form__fieldset-terms{
   display: flex;
-  justify-content: center;
-
 }
+
 .form__checkbox {
   border-radius: 2px;
-  background-color: ;#2F80ED;
+  background-color: #2f80ed;
   height: 20px;
   width: 20px;
   margin-right: 12px;
   display: inline-block;
-
 }
 
 .form__checkbox-check {
