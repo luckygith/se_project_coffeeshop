@@ -58,10 +58,3 @@
   margin: 0 auto;
   padding: 0;
 }
-
-.content {
-  background-color: #0a2750;
-  background-image: url(../images/background_recipes.svg);
-  background-size: cover;
-  background-position: center;
-}
