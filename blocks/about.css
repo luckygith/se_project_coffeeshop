@@ -8,7 +8,6 @@
   100% {
     opacity: 0;
     transform: scale(1.2);
-    opacity: 0;
   }
 }
 
@@ -17,7 +16,7 @@
   display: flex;
   box-sizing: border-box;
   position: relative;
-  display: flex;
+
   overflow: hidden;
 }
 
@@ -51,7 +50,6 @@
   font-size: 20px;
   line-height: 30px;
   color: #fff;
-  position: relative;
 }
 
 .about__paragraph {

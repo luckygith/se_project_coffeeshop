@@ -21,6 +21,10 @@
   text-decoration: none;
 }
 
+.nav__link:hover {
+  color: #2f80ed;
+}
+
 .nav__logo {
   position: relative;
   left: -50px;

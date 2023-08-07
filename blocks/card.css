@@ -33,16 +33,18 @@
   max-width: 540px;
   list-style-type: none;
   justify-content: space-between;
-  align-items: center;
+  align-items: baseline;
+  margin-bottom: 16px;
 }
 
 .card__list-divider {
-  color: black;
+  background-color: black;
   height: 1px;
   padding: 0;
+  flex-grow: 1;
 }
 
-.card__section .card__list-item:last-child {
+.card__list-item:last-child {
   margin-bottom: 0;
 }
 
